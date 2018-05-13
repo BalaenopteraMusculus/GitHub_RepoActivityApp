@@ -17,7 +17,7 @@ export class TabsPage {
     this.tab1Root = 'SearchPage';
     this.tab2Root = 'WatchingPage';
     this.tab3Root = 'StarredPage';
-    this.tab4Root = 'ForkedPage';
+    this.tab4Root = 'FollowingPage';
     this.tab5Root = 'MyGitHubPage';
   }
 

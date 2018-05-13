@@ -1,13 +1,13 @@
 import { NgModule } from '@angular/core';
 import { IonicPageModule } from 'ionic-angular';
-import { ForkedPage } from './forked';
+import { FollowingPage } from './following';
 
 @NgModule({
   declarations: [
-    ForkedPage,
+    FollowingPage,
   ],
   imports: [
-    IonicPageModule.forChild(ForkedPage),
+    IonicPageModule.forChild(FollowingPage),
   ],
 })
-export class ForkedPageModule {}
+export class FollowingPageModule {}
