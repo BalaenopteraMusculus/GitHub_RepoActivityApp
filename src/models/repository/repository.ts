@@ -9,4 +9,5 @@ export interface Repository {
     totalForks: number;
     totalCommits: number;
     totalContributors: number;
+    commitRate: string;
 }
