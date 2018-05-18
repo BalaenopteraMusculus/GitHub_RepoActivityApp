@@ -11,7 +11,8 @@ const repoList: Repository[] = [
         totalStars: 0,
         totalForks: 0,
         totalCommits: 22,
-        totalContributors: 1
+        totalContributors: 1,
+        commitRate: '-'
     },
     {
         name: 'Another Test Repository',
@@ -23,7 +24,8 @@ const repoList: Repository[] = [
         totalStars: 123123123,
         totalForks: 12312312,
         totalCommits: 123123123,
-        totalContributors: 12312312
+        totalContributors: 12312312,
+        commitRate: '0'
     }
 ];
 
