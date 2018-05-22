@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { SearchResult } from '../../models/searchResult/searchResult.interface'
 
 @IonicPage()
 @Component({
