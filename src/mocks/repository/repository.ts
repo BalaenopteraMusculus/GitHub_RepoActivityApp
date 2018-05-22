@@ -1,4 +1,4 @@
-import { Repository } from '../../models/repository/repository';
+import { Repository } from '../../models/repository/repository.interface';
 
 const repoList: Repository[] = [
     {

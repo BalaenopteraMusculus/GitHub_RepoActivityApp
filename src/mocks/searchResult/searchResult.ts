@@ -1,5 +1,5 @@
 import { REPOSITORY_LIST } from '../repository/repository';
-import { SearchResult } from '../../models/searchResult/searchResult';
+import { SearchResult } from '../../models/searchResult/searchResult.interface';
 
 const repoList = REPOSITORY_LIST;
 const resultList: SearchResult[] = [];
