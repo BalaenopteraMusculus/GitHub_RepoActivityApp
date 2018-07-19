@@ -1,17 +1,6 @@
 <ion-card> 
-  <ion-card-content>
-    <ion-item>
-        <ion-label floating>Email Address</ion-label>
-        <ion-input type="text"></ion-input>
-    </ion-item>
-    <ion-item>
-        <ion-label floating>Password</ion-label>
-        <ion-input type="password"></ion-input>
-    </ion-item>
-  </ion-card-content>
-  <ion-row class="login-form__buttons">
-    <div></div>
-    <button ion-button (click)="navigateToPage('RegisterPage')" color="register">Register</button>
-    <button ion-button (click)="navigateToPage('TabsPage')" color="login">Login</button>
-  </ion-row>
-</ion-card>
+    <ion-row class="login-form__buttons">
+      <div></div>
+      <button ion-button (click)="navigateToPage('TabsPage')" color="login">Log in with GitHub</button>
+    </ion-row>
+  </ion-card>
